@@ -26,7 +26,7 @@ Messaging queues can be scaled according to traffic between producer and consume
 
 
 
-**Messaging Queue Tools:**
+### Messaging Queue Tools
 
 Messaging queues services are provided by many companies ,these companies provides these services to clients with their own developed tools . Here are the some of the tools ,which are developed by individual company .
 
@@ -53,7 +53,7 @@ Messaging queues services are provided by many companies ,these companies provid
 
 .Alibaba message services
 
-**Enterprise Message Bus:**
+## Enterprise Message Bus
 
 A message bus provides one or more Applications to communicate messages to one or more applications . Unlike in messaging queues where it is based on fifo , message bus may not follow same order . A subscriber may come and go without the knowledge of message  producer .
 
