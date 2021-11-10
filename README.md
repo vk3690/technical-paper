@@ -63,7 +63,11 @@ Let an application  A be a message sender , which communicates messages to appli
 
 ### Reference
 [https://aws.amazon.com/message-queue/](https://aws.amazon.com/message-queue/)
+
 [https://www.youtube.com/watch?v=ZwZvQIuX0AU](https://www.youtube.com/watch?v=ZwZvQIuX0AU)
+
 [https://stackoverflow.com/questions/7793927/message-queue-vs-message-bus-what-are-the-differences](https://stackoverflow.com/questions/7793927/message-queue-vs-message-bus-what-are-the-differences)
+
 [https://www.youtube.com/watch?v=oUJbuFMyBDk](https://www.youtube.com/watch?v=oUJbuFMyBDk)
+
 [https://www.youtube.com/watch?v=5-Rq4-PZlew](https://www.youtube.com/watch?v=5-Rq4-PZlew)
