@@ -57,18 +57,6 @@ Messaging queues services are provided by many companies ,these companies provid
 
 A message bus provides one or more Applications to communicate messages to one or more applications . Unlike in messaging queues where it is based on fifo , message bus may not follow same order . A subscriber may come and go without the knowledge of message  producer .
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+![working of bus](https://i.stack.imgur.com/5PkJy.gif) 
 
 Let an application  A be a message sender , which communicates messages to application B through message bus , later an application C can be configured to listen to message bus and can take actions based on the messages of  A. The configuration is done without the knowledge of application A . Message bus works based on subscribe / publish model , when a sender sends messages in message bus any application or receiver subscribed to that kind of messages can listen to them and take actions and update .  This approach allows application to follow open / closed  principle ,where they are open to future changes while remaining closed for additional modifiactions.
