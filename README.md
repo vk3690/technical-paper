@@ -1,9 +1,9 @@
 # technical-paper
-**MESSAGING QUEUES**
+# MESSAGING QUEUES
 
 Message queue is asynchronous service to service communication used in server less and micro services architecture . The queue is like a buffer or temporary storage where the messages are stored . Once these messages are processed they are deleted from the buffer  , every message is processed only once and bt a single consumer . These messages are arranged based on the FIFO (first in first out) ,where the first message that entered queue is processed first . Every queue has a queue manager ,which manages and maintains the queue. A message in the queue can be of various forms like xml , text, byets. These messages are added to the queue explicitly by sender to receiver .
 
-
+![block diagram of queue](https://i.stack.imgur.com/1Oq0A.png)
 
 
 
