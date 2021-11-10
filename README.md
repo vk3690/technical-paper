@@ -28,7 +28,7 @@ Messaging queues can be scaled according to traffic between producer and consume
 
 ### Messaging Queue Tools
 
-Messaging queues services are provided by many companies ,these companies provides these services to clients with their own developed tools . Here are the some of the tools ,which are developed by individual company .
+Messaging queues services are provided by many companies ,these companies provide the services with their on developed tools . Here are the some of the tools ,which are used for queueing services.
 
 
 .Mulesoft anypoint platform
@@ -60,3 +60,10 @@ A message bus provides one or more Applications to communicate messages to one o
 ![working of bus](https://i.stack.imgur.com/5PkJy.gif) 
 
 Let an application  A be a message sender , which communicates messages to application B through message bus , later an application C can be configured to listen to message bus and can take actions based on the messages of  A. The configuration is done without the knowledge of application A . Message bus works based on subscribe / publish model , when a sender sends messages in message bus any application or receiver subscribed to that kind of messages can listen to them and take actions and update .  This approach allows application to follow open / closed  principle ,where they are open to future changes while remaining closed for additional modifiactions.
+
+### Reference
+[https://aws.amazon.com/message-queue/](https://aws.amazon.com/message-queue/)
+[https://www.youtube.com/watch?v=ZwZvQIuX0AU](https://www.youtube.com/watch?v=ZwZvQIuX0AU)
+[https://stackoverflow.com/questions/7793927/message-queue-vs-message-bus-what-are-the-differences](https://stackoverflow.com/questions/7793927/message-queue-vs-message-bus-what-are-the-differences)
+[https://www.youtube.com/watch?v=oUJbuFMyBDk](https://www.youtube.com/watch?v=oUJbuFMyBDk)
+[https://www.youtube.com/watch?v=5-Rq4-PZlew](https://www.youtube.com/watch?v=5-Rq4-PZlew)
