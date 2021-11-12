@@ -30,9 +30,9 @@ Messaging queues services are provided by many companies, these companies provid
 
  .Mulesoft anypoint platform
 
-.IBM Mq
+* IBM Mq
 
-.Azure scheduler
+* Azure scheduler
 
 .Apache Kafka
 
