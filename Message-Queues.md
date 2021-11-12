@@ -3,7 +3,7 @@
 
 A message queue is an asynchronous service to service communication used in a serverless and microservices architecture. The queue is like a buffer or temporary storage where the messages are stored. Once these messages are processed they are deleted from the buffer, every message is processed only once and by a single consumer. These messages are arranged based on the FIFO (first in first out), where the first message that entered queue is processed first. Every queue has a queue manager, which manages and maintains the queue. A message in the queue can be of various forms like XML, text, bytes. These messages are added to the queue explicitly by the sender to receiver.
 
-![block diagram of queue](https://i.stack.imgur.com/1Oq0A.png)
+   ![block diagram of queue](https://i.stack.imgur.com/1Oq0A.png)
 
 
 
@@ -54,7 +54,7 @@ Messaging queues services are provided by many companies, these companies provid
 
 A message bus provides one or more Applications to communicate through messages with one or more applications. Unlike in messaging queues where it is based on FIFO, message bus may not follow the same order. A subscriber may come and go without the knowledge of the message producer.
 
-![working of bus](https://i.stack.imgur.com/5PkJy.gif) 
+   ![working of bus](https://i.stack.imgur.com/5PkJy.gif) 
 
 Let application A be a message sender, which communicates messages to application B through a message bus, later application C can be configured to listen to the message bus and can take actions based on the messages of A. The configuration is done without the knowledge of application A.
 Message bus works based on subscribe/publish model when a sender sends messages in message bus any application or receiver subscribed to that kind of messages can listen to them and take actions and update. This approach allows the application to follow the open/closed principle, where they are open to future changes while remaining closed for additional modifications.
