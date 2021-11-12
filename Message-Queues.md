@@ -60,12 +60,12 @@ Let application A be a message sender, which communicates messages to applicatio
 Message bus works based on subscribe/publish model when a sender sends messages in message bus any application or receiver subscribed to that kind of messages can listen to them and take actions and update. This approach allows the application to follow the open/closed principle, where they are open to future changes while remaining closed for additional modifications.
 
 ### References
-[https://aws.amazon.com/message-queue/](https://aws.amazon.com/message-queue/)
+* [https://aws.amazon.com/message-queue/](https://aws.amazon.com/message-queue/)
 
-[https://www.youtube.com/watch?v=ZwZvQIuX0AU](https://www.youtube.com/watch?v=ZwZvQIuX0AU)
+* [https://www.youtube.com/watch?v=ZwZvQIuX0AU](https://www.youtube.com/watch?v=ZwZvQIuX0AU)
 
-[https://stackoverflow.com/questions/7793927/message-queue-vs-message-bus-what-are-the-differences](https://stackoverflow.com/questions/7793927/message-queue-vs-message-bus-what-are-the-differences)
+* [https://stackoverflow.com/questions/7793927/message-queue-vs-message-bus-what-are-the-differences](https://stackoverflow.com/questions/7793927/message-queue-vs-message-bus-what-are-the-differences)
 
-[https://www.youtube.com/watch?v=oUJbuFMyBDk](https://www.youtube.com/watch?v=oUJbuFMyBDk)
+* [https://www.youtube.com/watch?v=oUJbuFMyBDk](https://www.youtube.com/watch?v=oUJbuFMyBDk)
 
-[https://www.youtube.com/watch?v=5-Rq4-PZlew](https://www.youtube.com/watch?v=5-Rq4-PZlew)
+* [https://www.youtube.com/watch?v=5-Rq4-PZlew](https://www.youtube.com/watch?v=5-Rq4-PZlew)
