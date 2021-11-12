@@ -44,9 +44,9 @@ Messaging queues services are provided by many companies, these companies provid
 
 * Google cloud pub/sub
 
-*Apache Active Mq
+* Apache Active Mq
 
-*Amazon Mq
+* Amazon Mq
 
 * Alibaba message services
 
