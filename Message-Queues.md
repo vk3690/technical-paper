@@ -28,27 +28,27 @@ messaging queues can be scaled according to traffic between producer and consume
 
 Messaging queues services are provided by many companies, these companies provide these services to clients with their developed tools. Here are some of the tools, which are developed by individual companies.
 
- .Mulesoft anypoint platform
+* Mulesoft anypoint platform
 
 * IBM Mq
 
 * Azure scheduler
 
-.Apache Kafka
+* Apache Kafka
 
-.TIBCO Rendezvous
+* TIBCO Rendezvous
 
-.Rabbit Mq
+* Rabbit Mq
 
-.IBM cloud Pak for integration
+* IBM cloud Pak for integration
 
-.Google cloud pub/sub
+* Google cloud pub/sub
 
-.Apache Active Mq
+*Apache Active Mq
 
-.Amazon Mq
+*Amazon Mq
 
-.Alibaba message services
+* Alibaba message services
 
 ## Enterprise Message Bus
 
