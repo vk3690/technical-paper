@@ -11,15 +11,15 @@ A message queue is an asynchronous service to service communication used in a se
 
 ## Why use Message Queues
 
-**Better Performance:**
+###Better Performance
 
 They provide asynchronous communication between two systems, where these systems would only interact with queue, but not with each other. At any point, any producer can add a message to the queue without waiting for them to be processed. On the other side consumer only process the messages only when they are available. So, no system is waiting for others to respond which gradually improves performance of the both the applications.
 
-**Reliability:**
+###Reliability
 
 Queues make data persistence across the internet .when one part of the system faces failure or goes offline the messages are still in the queue. The remaining part of the system that is functioning can still interact with the queue and process the messages and update themselves.
 
-**Scalability:**
+###Scalability
 messaging queues can be scaled according to traffic between producer and consumer. A queue can get longer when the system faces peak workload and shrink when the workload is low. These shrinking and growing queues help in managing messages and processing them efficiently.
 
 
